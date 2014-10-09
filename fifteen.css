@@ -1,0 +1,37 @@
+/*Derek Willms CSE 154
+Section AD HW#8 5/29/13
+fifteen.css is a stylesheet for the fifteen puzzle webpage*/
+
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.highlight {
+	border: 5px solid red;
+	color: red;
+	cursor: pointer;
+}
+
+.highlight, .square {
+	background-image: url("background.jpg");
+	height: 90px;
+	width: 90px;
+}
+
+#puzzlearea {
+	height: 400px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.number {
+	font-size: 40pt;
+}
+
+.square {
+	border: 5px solid black;
+}
